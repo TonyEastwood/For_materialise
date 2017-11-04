@@ -1,0 +1,20 @@
+1) We read the data from stl file.
+2) Create object class Vertex which contained follow info:
+	a) Array of elements with which current vertex connected;
+	b) The distance to each of these vertex;
+	c) Itself position (x,y,z).
+2) User input the coords of start and end vertex position.
+3) We get start from the first vertex and look over all possible vertices with which the current have connection.
+4) If short way to next vertex is greater then sum of distance to current vertex and 
+distance from current vertex to next then value of short way to the next vertex is assigned expression that i wrote above.
+5) We do this until we find the end vertex.
+6) So in a result we have short way between two points.
+
+For this task i used algorithm bfs combine with Dijkstra.
+
+Complexity of the algorithm:
+
+O(V+E)
+Where:
+V - quantity of vertex;
+E - quantity of all edges;

@@ -1,0 +1,72 @@
+Input:
+
+Name model:
+Model.stl
+Coords start:
+1					
+0.99999994
+-1
+Coords end:
+-1.00000036
+-0.999999642
+1
+
+
+
+Output:
+
+Length of short way=2.82843
+Road:PointStart(1, 1, -1) ---->  Point1(0.999999, -1, 1) ---->  PointEnd(-1, -1, 1) 
+
+
+Explanation:
+
+That mean that the shortest path is 2.82843.
+All way from start to end Vertex:
+PointStart(1, 1, -1) ---->  Point1(0.999999, -1, 1) ---->  PointEnd(-1, -1, 1) 
+
+
+
+
+
+Input:
+
+Name model:
+Model.stl
+Coords start:
+-1.00000036
+-0.999999642
+1
+Coords end:
+1.00000048
+0.999999464
+1
+
+
+Output:
+
+Length of short way=2.82843
+Road:PointStart(-1, -1, 1) ---->  PointEnd(1, 0.999999, 1) 
+
+
+
+Input:
+
+Name model:
+Model.stl
+Coords start:
+1
+0.99999994
+-1
+Coords end:
+1.00000048
+0.999999464
+1
+
+
+Output:
+
+Length of short way=2
+Road:PointStart(1, 1, -1) ---->  PointEnd(1, 0.999999, 1) 
+
+
