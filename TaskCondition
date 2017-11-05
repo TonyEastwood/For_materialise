@@ -1,0 +1,26 @@
+Input:
+3D model in .STL file (triangles)
+Source and target points (lie on some triangles of the model, not necessarily triangle vertices)
+ 
+
+Output:
+Success return code: shortest path may not exist if there is no connection through triangle edges/vertices over surface between source point and target point
+True shortest path distance value
+At least one path over surface (sequence of 3D points) representing a true shortest path from source to target
+Evaluation criteria
+Algorithm correctness: e.g. checking there is no one path shorter than the provided answer
+Algorithm performance
+Source code quality
+
+
+Additional information:
+Given a single source point, the algorithm is preferred to be optimized for querying multiple target points
+Programming language: C++ 11/14
+Compilers: Visual Studio 13/15/17
+Test data to use: any free STL files available on web, e.g. from thingiverse.com or any other source of your choice
+Visualization is not necessary to be included into solution. However you may look for some free visualizers on web in order to facilitate your development process, or visualize by other means
+You’re free to use 3rd party libraries of your choice with proper licensing
+Format of your solution to be sent back to us:
+reference to GitHub repository with buildable source code of your program
+human readable description of your algorithm implementation with complexity analysis etc
+description of performed tests (included automatic tests are preferred)
